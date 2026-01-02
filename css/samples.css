@@ -1,0 +1,113 @@
+    /*----Header-----*/
+    .container .psheader {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .psinfobar {
+        text-align: justify;
+        font-family: 'Rosario', sans-serif;
+        font-size: 16px;
+        font-weight: 700;
+        color: #ffffff;
+        background-color: #464646;
+        padding: 15px 40px 1px 40px !important;
+    }
+
+    .container .psinfobar {
+        margin: 0;
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    /*----Gallery-----*/
+    a.nav-link {
+        color: #555;
+        text-decoration: none;
+        background-color: transparent;
+
+    }
+
+    a.nav-link:hover {
+        color: #dc3545;
+        text-decoration: underline;
+
+    }
+
+    .nav-pills .nav-link.active,
+    .nav-pills .show > .nav-link {
+        color: #fff;
+        background-color: #dc3545;
+        padding-left: 16px !important;
+    }
+
+
+    .modal-content {
+        position: relative;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        width: 100%;
+        pointer-events: auto;
+        background-color: white;
+        background-clip: padding-box;
+        border: 0px;
+        border-color: blueviolet;
+        border-radius: 0px;
+        outline: 20px;
+    }
+
+    .modal-body {
+        position: relative;
+        -ms-flex: 1 1 auto;
+        flex: 1 1 auto;
+        padding: 0rem;
+
+
+    }
+
+
+    .tags-bar {
+        background-color: #f7f7f7;
+        padding-top: 15px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 5px;
+        margin-top: 2px !important;
+        justify-content: space-evenly;
+
+    }
+
+    .samplesimage {
+        border-width: 2px;
+        border-color: lightgray;
+        border-style: solid;
+
+    }
+
+@media screen and (min-width: 992px) {
+    .tags-bar {
+        background-color: #f7f7f7;
+        padding-top: 15px;
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-bottom: 5px;
+        margin-top: 2px !important;
+        justify-content: space-evenly;
+
+    }
+}    
+
+@media screen and (min-width: 1200px) {
+    .tags-bar {
+        background-color: #f7f7f7;
+        padding-top: 15px;
+        padding-left: 150px;
+        padding-right: 150px;
+        padding-bottom: 5px;
+        margin-top: 2px !important;
+        justify-content: space-evenly;
+
+    }
+}    
