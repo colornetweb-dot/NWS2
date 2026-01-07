@@ -1,0 +1,1 @@
+This is a redirect page to upload.colornetpress.com in case someone types in the url colornetpress.com/upload
