@@ -243,6 +243,7 @@ a.nav-link {
 
 }
 
+
 /*----Footer------------------------------------------------*/
 
 
@@ -1162,6 +1163,14 @@ a.contactlink:hover {
         justify-content: center;
         margin: 0 auto;
     }
+}
+
+@media screen and (max-width: 1195px) {
+.about-img-inner {
+width: 200px; 
+height: 200px; 
+margin-left: 15px;
+ }
 }
 
 
